@@ -1,0 +1,8 @@
+---
+layout: default
+img: ipad.png
+category: features
+title: 獨立性
+description: |
+---
+  老師不需要再煩惱教R 的事情，可以給我們一到兩小時介紹R 的背景知識，剩下的時間交由學生做作業自學。

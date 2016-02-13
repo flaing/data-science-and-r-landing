@@ -1,0 +1,8 @@
+---
+layout: default
+img: dog.png
+category: features
+title: 開放
+description: |
+---
+  R Basic 交給我們！開放的教材讓老師能夠以最低的成本取得教材，使老師能聚焦於R 基礎使用、Data 的 Engineering 與 Visualization 。教材本身的獨立性，使老師們專注在課程的核心。

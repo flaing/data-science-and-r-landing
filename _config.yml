@@ -1,0 +1,31 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://datascienceandR.org
+title: 資料科學翻轉教室 - R 系列
+email: flaing12@gmail.com
+author: Data science and R
+description: 翻轉學習 x R 語言
+copyright: 'Copyright &copy; 2016 DataScienceandR.org . All Rights Reserved.'
+credits: 'Credits: Course contents are free to use and created by <a href="http://datascienceandR.org">DataScienceandR</a>. On site teaching please contact: <a href="mailto:wush978@gmail.com">wush978@gmail.com</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: 預習
+    url: https://www.youtube.com/watch?v=fcd6zSk0yd8
+  - title: 手把手作業
+    url: https://www.bing.com/cc?=cn
+  - title: 翻轉 - 成功案例
+    url: https://www.google.com

@@ -1,0 +1,8 @@
+---
+layout: default
+img: phones.png
+category: features
+title: 效果
+description: |
+---
+學生經過這樣的練習之後，真的能學到紮實的 R 基礎，繼續學後續「老師們傳授的核心知識」
