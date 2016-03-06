@@ -107,11 +107,9 @@
               <br/><br/>
               <h2>翻轉教室</h2>
               <br/>
-              <p align=left>在過去，我們在網路上的討論區，常常看到同學們在學校已經學會統計、學會用R 做分析，但是卻不熟悉R 本身，導致在學習分析套件，或是在實務的資料整理上，有諸多問題與挫折。
+              <p align=left>這是一個以著重於實作，一個動態的R 語言在地化中文教材。
 </p>
-              <p align=left>我們也理解這類R 的基礎知識，是不容易在課堂上以傳統教學方式教授的。因此，我們運用R 的swirl套件，開發了這套教材，讓學生能在R 中學R，並且在學習中給予學生挑戰，增強學生的動機。
-</p>
-              <p align=left>除了基礎的R 知識之外，我們也以實際的開放資料為例，介紹處理開放資料的方法，以及處理中文資料的技巧。台灣是2015年全世界做開放資料最好的國家，而R 絕對是處理這些開放資料的利器。我們希望學生能善用政府釋出的開放資料。
+              <p align=left>
 </p>
               <p align=left>本教材以創用CC 3.0 姓名標示的方式釋出，所以老師們可以自由地把本教材運用在課程之中。我們建議老師們將本教材當成的補充作業使用，讓同學在學R 做分析之餘，也可以學習R本身的知識和處理開放資料的技能。如果有需要，我們也願意到課堂上給一節課程長度的介紹，讓同學知道如何使用本教材。有興趣的老師很歡迎來信聯繫我們。
 </p>
@@ -134,12 +132,137 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">獨立性</h2>
-                    <div class="lead"><p>老師不需要再煩惱教R 的事情，可以給我們一到兩小時介紹R 的背景知識，剩下的時間交由學生做作業自學。</p>
+                    <h2 class="section-heading">R x 翻轉教室</h2>
+                    <div class="lead"><!-- title: R 語言翻轉教室 -->
+
+<p>測試結果： Linux <img src="https://travis-ci.org/wush978/DataScienceAndR.svg?branch=course" alt="" /> Windows <a href="https://ci.appveyor.com/project/wush978/datascienceandr/branch/course"><img src="https://ci.appveyor.com/api/projects/status/tej2qnpdxwy2r5lp/branch/course?svg=true" alt="Build status" /></a></p>
+
+<p>聊天室： <a href="https://gitter.im/wush978/DataScienceAndR?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/wush978/DataScienceAndR.svg" alt="Gitter" /></a></p>
+
+<h2 id="section">簡介</h2>
+
+<p>這是一個以著重於實作，一個動態的<strong>R 語言在地化中文教材</strong>。和其他R 教材相比，這份教材具有以下的特色：</p>
+
+<ol>
+  <li><strong>完整</strong>。由於教材是參考CRAN上介紹R 的官方文件：<a href="https://cran.r-project.org/doc/manuals/R-intro.pdf">An Introduction to R</a>所撰寫的，同學即使只有使用這份教材學R ，即可獲得所有用R 所需要的所有知識。</li>
+  <li><strong>在地化的中文資料處理</strong>。教材是特別針對處理台灣的Open Data所設計，所以會涵蓋所有要載入中文資料所需要的知識。網路上雖然已經有很多很棒的R 教材，但是他們通常沒有描述如何處理中文資料。</li>
+  <li><strong>新</strong>。在2012年以後，R 的成長是非常快速的，所以教材會納入許多近年來被R 社群證實很棒的套件們。</li>
+  <li><strong>套件的使用與探索</strong>。R 的一大優勢就是蓬勃的套件系統。雖然教材中無法介紹所有的套件，但是會教同學如何探索一個第一次接觸的R 套件。</li>
+  <li><strong>互動</strong>。我們基於R Community貢獻的R 語言套件swirl 所撰寫的互動式學習環境，可以讓同學以最貼近實際使用R 的狀況來學R</li>
+  <li><strong>教材設計</strong>。每個單元的開始，我們設計大量的操作讓同學是透過用<strong>肌肉</strong>來記憶R 的指令。並且在單元的最後都擁有來自實務且具有挑戰性的關卡。</li>
+  <li><strong>自由</strong>。老師們可以很方便與自由地將本教材整合至您的教案之中。您可以將本教材當成同學學習R語言的補充教材，讓同學透過本教材學習如何處理政府的開放資料集。本教材不會涉獵過多的專業分析技術，而是把這些內容留給專業的老師們。有興趣合作的老師歡迎來信：<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#119;&#117;&#115;&#104;&#064;&#100;&#097;&#116;&#097;&#115;&#099;&#105;&#101;&#110;&#099;&#101;&#097;&#110;&#100;&#114;&#046;&#111;&#114;&#103;">&#119;&#117;&#115;&#104;&#064;&#100;&#097;&#116;&#097;&#115;&#099;&#105;&#101;&#110;&#099;&#101;&#097;&#110;&#100;&#114;&#046;&#111;&#114;&#103;</a></li>
+</ol>
+
+<h2 id="section-1">線上體驗區（需參加實體課程）</h2>
+
+<p>請有參加實體課程的同學打開： <a href="http://server.datascienceandr.org:28787">http://server.datascienceandr.org:28787</a></p>
+
+<p>並依照課堂上給的帳號密碼登入。</p>
+
+<p>有興趣的同學也歡迎聯繫我們（無論是在聊天室或是來信：<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#119;&#117;&#115;&#104;&#064;&#100;&#097;&#116;&#097;&#115;&#099;&#105;&#101;&#110;&#099;&#101;&#097;&#110;&#100;&#114;&#046;&#111;&#114;&#103;">&#119;&#117;&#115;&#104;&#064;&#100;&#097;&#116;&#097;&#115;&#099;&#105;&#101;&#110;&#099;&#101;&#097;&#110;&#100;&#114;&#046;&#111;&#114;&#103;</a>），取得線上體驗的帳號密碼。</p>
+
+<h2 id="section-2">快速安裝區</h2>
+
+<p>同學可以參考以下的上手影片：</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fcd6zSk0yd8" frameborder="0" allowfullscreen=""></iframe>
+
+<p>或是依照以下的動作快速設定學習環境：</p>
+
+<ol>
+  <li>安裝R</li>
+  <li>安裝Rstudio(Windows 使用者請安裝Rstudio或自備編輯UTF-8 編碼的程式碼，OS X 與Linux使用者可依據自己喜好決定是否使用Rstudio)</li>
+  <li>打開R ，執行：<code class="highlighter-rouge">source("http://wush978.github.io/R/init-swirl.R")</code></li>
+  <li>輸入<code class="highlighter-rouge">library(swirl);swirl()</code>後即進入教學環境。</li>
+  <li>進入00-Hello-DataScienceAndR課程檢查你的電腦能不能執行本教材的所有功能，並瞭解本教材所提供的功能。</li>
+</ol>
+
+<p>有興趣了解安裝細節的同學，請操考：</p>
+
+<ul>
+  <li><a href="https://github.com/wush978/DataScienceAndR/wiki/Windows-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97">Windows</a></li>
+  <li><a href="https://github.com/wush978/DataScienceAndR/wiki/Mac-OS-X-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97">Mac OS X</a></li>
+  <li><a href="https://github.com/wush978/DataScienceAndR/wiki/Ubuntu-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97">Ubuntu</a></li>
+</ul>
+
+<p>安裝上有問題，或是在執行00-Hello-DataScienceAndR不順利的同學請到<a href="#求助專區">求助專區</a>取得協助</p>
+
+<h2 id="section-3">互動式學習環境快速上手區</h2>
+
+<p>在輸入<code class="highlighter-rouge">swirl()</code>之後，同學即進入R 的互動式學習環境(swirl環境)。請參考以下動作做操作：</p>
+
+<h3 id="section-4">1. 進入學習環境</h3>
+
+<p><img src="http://i.imgur.com/sYGDy72.png" alt="Imgur" /></p>
+
+<p>ps. 如果你之前有進行過swirl的課程，swirl會出現下圖的選項詢問你是否要接關。請根據你的需求作答：</p>
+
+<p><img src="http://i.imgur.com/SwlSa3W.png" alt="Imgur" /></p>
+
+<p>如不接關，請選取：<code class="highlighter-rouge">No. Let me start something new.</code></p>
+
+<h3 id="course">2. 選擇課程(Course)</h3>
+
+<p><img src="http://i.imgur.com/Sfj0K1l.png" alt="Imgur" /></p>
+
+<h3 id="lesson">3. 選擇你要進行的單元(Lesson)</h3>
+
+<p><img src="http://i.imgur.com/OFgU4wM.png" alt="Imgur" /></p>
+
+<p>目前主要課程分成以下三塊：</p>
+
+<ul>
+  <li>01-RBasic區：講解R 語言的基礎知識與使用方法。所有以下的課程都需要知道RBasic的知識。</li>
+  <li>02-RDataEngineer區：講解載入資料至R 語言，以及清理、整理資料的所需知識。</li>
+  <li>03-RVisualization區：介紹R的視覺化功能</li>
+</ul>
+
+<p>其他的課程，同學可以視自己的興趣決定要不要完成</p>
+
+<ul>
+  <li>Optional-RProgramming區：介紹R 語言的程式功能。</li>
+  <li>Optional-RDataMining區：介紹R 語言在Data Mining中常用的套件。</li>
+  <li>Optional-RStatistic區：搭配實體課程所使用的swirl課程，不建議同學自行使用</li>
+</ul>
+
+<h2 id="section-5">求助專區</h2>
+
+<p>有問題的朋友，麻煩先註冊一個Github帳號後，可以到以下地方討論：</p>
+
+<ul>
+  <li><a href="https://github.com/wush978/DataScienceAndR/issues">Issue回報區</a></li>
+  <li>Gitter聊天室：<a href="https://gitter.im/wush978/DataScienceAndR?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/wush978/DataScienceAndR.svg" alt="Gitter" /></a></li>
+</ul>
+
+<h2 id="section-6">緣起</h2>
+
+<p>這個Repository主要是為了準備我在臺大的資料科學課程，幫陳老師講的兩堂R 的課程。課程素材主要就是投影片和swirl。內容則是參考CRAN上介紹R 的官方文件：<a href="https://cran.r-project.org/doc/manuals/R-intro.pdf">An Introduction to R</a>。
+另外也要感謝社群中所有有參與籌備資料科學愛好者年會2015的同伴。</p>
+
+<h2 id="section-7">課程筆記</h2>
+
+<p>以下連結記載swirl中的課程內容(sha-hash: <r-sha-hash> 版本)</r-sha-hash></p>
+
+<r-note>
+
+## 課程投影片
+
+以下連結是課程中使用的投影片
+
+- [RBasic-Introduction](slide/RBasic-Introduction.html)
+- [RBasic-DataStructure](slide/RBasic-DataStructure.html)
+- [RDataEngineer-Introduction](slide/RDataEngineer-Introduction.html)
+- [RVisualization-Introduction](slide/RVisualization-Introduction.html)
+- [Statistics](slide/Statistics.html)
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/tw/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Data Science and R</span>由<a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/wush978/DataScienceAndR" property="cc:attributionName" rel="cc:attributionURL">Wush Wu、Chih Cheng Liang和Johnson Hsieh</a>製作，以<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">創用CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a>釋出。
+</r-note>
 </div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/ipad.png" alt="">
+                    <img class="img-responsive" src="img/services/" alt="">
                 </div>
             </div>
 
@@ -161,12 +284,12 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">開放</h2>
-                    <div class="lead"><p>R Basic 交給我們！開放的教材讓老師能夠以最低的成本取得教材，使老師能聚焦於R 基礎使用、Data 的 Engineering 與 Visualization 。教材本身的獨立性，使老師們專注在課程的核心。</p>
+                    <h2 class="section-heading">獨立性</h2>
+                    <div class="lead"><p>老師不需要再煩惱教R 的事情，可以給我們一到兩小時介紹R 的背景知識，剩下的時間交由學生做作業自學。</p>
 </div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/dog.png" alt="">
+                  <img class="img-responsive" src="img/services/ipad.png" alt="">
                 </div>
             </div>
 
@@ -187,12 +310,66 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
+                    <h2 class="section-heading">開放</h2>
+                    <div class="lead"><p>R Basic 交給我們！開放的教材讓老師能夠以最低的成本取得教材，使老師能聚焦於R 基礎使用、Data 的 Engineering 與 Visualization 。教材本身的獨立性，使老師們專注在課程的核心。</p>
+</div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/services/dog.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    
+
+  
+    
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
                     <h2 class="section-heading">效果</h2>
                     <div class="lead"><p>學生經過這樣的練習之後，真的能學到紮實的 R 基礎，繼續學後續「老師們傳授的核心知識」</p>
 </div>
                 </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive" src="img/services/phones.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    
+
+  
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">test</h2>
+                    <div class="lead">  test
+  test
+</div>
+                </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/phones.png" alt="">
+                    <img class="img-responsive" src="img/services/ipad.png" alt="">
                 </div>
             </div>
 
